@@ -4,6 +4,10 @@ Reusable, themeable UI primitives for TanStack Start + Tailwind applications
 
 > Built with [Agent Context Protocol](https://github.com/prmichaelsen/agent-context-protocol)
 
+## Demo
+
+[Live Component Demo](https://prmichaelsen.github.io/agentbase-ux/)
+
 ## Quick Start
 
 ```bash
