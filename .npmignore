@@ -1,0 +1,8 @@
+src/
+agent/
+.claude/
+AGENT.md
+CLAUDE.md
+esbuild.build.js
+tsconfig.json
+node_modules/
