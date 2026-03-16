@@ -1,7 +1,13 @@
 // Components
+export { Alert } from './components/Alert'
+export type { AlertVariant } from './components/Alert'
 export { Button } from './components/Button'
 export type { ButtonVariant, ButtonSize } from './components/Button'
 export { ConfirmationModal } from './components/ConfirmationModal'
+export { DateTimePicker } from './components/DateTimePicker'
+export type { DateTimePickerProps } from './components/DateTimePicker'
+export { Expander, useCollapse, EXPANDER_VARIANTS } from './components/Expander'
+export type { ExpanderVariant, ExpanderProps } from './components/Expander'
 export { MenuItem } from './components/MenuItem'
 export { Modal } from './components/Modal'
 export { Paginator } from './components/Paginator'
@@ -9,15 +15,26 @@ export { Popover } from './components/Popover'
 export { Slider } from './components/Slider'
 export type { SliderProps } from './components/Slider'
 export { SlideOverPanel } from './components/SlideOverPanel'
+export { StatusBadge } from './components/StatusBadge'
+export type { StatusBadgeStyle, StatusBadgeStyleMap } from './components/StatusBadge'
+export { SubHeaderTabs } from './components/SubHeaderTabs'
+export type { SubHeaderTab } from './components/SubHeaderTabs'
 export { ToggleSwitch } from './components/ToggleSwitch'
 export type { ToggleSwitchSize } from './components/ToggleSwitch'
+export { Typeahead } from './components/Typeahead'
+export type { TypeaheadOption, TypeaheadProps } from './components/Typeahead'
 
 // Hooks
 export { useDebounce } from './hooks/useDebounce'
+export { useScrollDirection } from './hooks/useScrollDirection'
+export { useScrollRestore } from './hooks/useScrollRestore'
+export { useSlideTransition } from './hooks/useSlideTransition'
+export { useSwipeGesture } from './hooks/useSwipeGesture'
 
 // Utils
 export { formatExactTime, getRelativeTime } from './utils/format-time'
 export { shareOrCopyUrl, copyToClipboard } from './utils/clipboard'
+export { linkifyText } from './utils/linkify'
 
 // Theming
 export { ThemingProvider, useTheme, themes } from './lib/theming'
